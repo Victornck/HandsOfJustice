@@ -1,0 +1,48 @@
+import type { Avatar } from '../types/game'
+
+export const avatars: Avatar[] = [
+  {
+    id: 1,
+    name: 'Pedro',
+    skin: '#D9A77D',
+    hair: '#292720',
+    hairDetail: '#44453B',
+    shirt: '#B5F33B',
+    accent: '#85C526',
+    pants: '#30372C',
+    description: 'Curioso e pronto para investigar o desconhecido.',
+  },
+  {
+    id: 2,
+    name: 'João',
+    skin: '#8E5C3E',
+    hair: '#24201F',
+    hairDetail: '#41302B',
+    shirt: '#75D6C5',
+    accent: '#3CA99A',
+    pants: '#30372C',
+    description: 'Atento aos detalhes e aos sinais de perigo.',
+  },
+  {
+  id: 3,
+  name: 'Maria',
+  skin: '#F5D0A9',
+  hair: '#5B3827',
+  hairDetail: '#79523A',
+  shirt: '#B9A1FF',
+  accent: '#8B72D8',
+  pants: '#30372C',
+  description: 'Inteligente e determinada a descobrir a verdade.',
+},
+  {
+    id: 4,
+    name: 'Júlia',
+    skin: '#B97851',
+    hair: '#201F1D',
+    hairDetail: '#48423A',
+    shirt: '#FFB86B',
+    accent: '#DC8840',
+    pants: '#30372C',
+    description: 'Corajosa e preparada para fazer escolhas seguras.',
+  },
+]
